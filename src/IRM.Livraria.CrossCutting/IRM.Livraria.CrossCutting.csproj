@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IRM.Livraria.Application\IRM.Livraria.Application.csproj" />
+    <ProjectReference Include="..\IRM.Livraria.Domain\IRM.Livraria.Domain.csproj" />
+    <ProjectReference Include="..\IRM.Livraria.Infraestructure\IRM.Livraria.Infraestructure.csproj" />
+  </ItemGroup>
+
+</Project>
